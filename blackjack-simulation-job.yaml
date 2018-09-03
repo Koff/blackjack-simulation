@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: blackjack-simulation
+spec:
+  parallelism: 1
+  template:
+    spec:
+      containers:
+      - name: blackjack-simulation-job
+        image: gcr.io/reflected-flux-154706/blackjack-simulation
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "734Mi"
+      restartPolicy: Never

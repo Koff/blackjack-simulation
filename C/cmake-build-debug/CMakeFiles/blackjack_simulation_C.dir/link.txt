@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/blackjack_simulation_C.dir/deck.c.o CMakeFiles/blackjack_simulation_C.dir/card.c.o CMakeFiles/blackjack_simulation_C.dir/blackjack.c.o CMakeFiles/blackjack_simulation_C.dir/simulation.c.o  -o blackjack_simulation_C 

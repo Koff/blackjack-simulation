@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/blackjack.h
+stdbool.h
+-
+card.h
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/card.h
+deck.h
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/deck.h
+
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/card.h
+
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/deck.h
+
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/simulation.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+blackjack.h
+/Users/fsanmartin/Documents/Code/blackjack-simulation-C/blackjack.h
+
